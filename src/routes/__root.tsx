@@ -90,7 +90,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
           "Swami Atmanand Govt English School, Sohga (SAGES) — a Government English & Hindi medium school in Surguja, Chhattisgarh offering quality CGBSE education for Class 1–12.",
       },
       { name: "author", content: school.name },
-      { property: "og:title", content: "SAGES Sohga | Swami Atmanand Govt English School" },
+      { property: "og:title", content: "SAGES Sohga | Swami Atmanand Govt English School, Surguja" },
       {
         property: "og:description",
         content:
@@ -99,6 +99,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: school.shortName },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "SAGES Sohga | Swami Atmanand Govt English School, Surguja" },
+      { name: "description", content: "SAGES Sohga Hub is a professional, modern government school website for Swami Atmanand Govt English School." },
+      { property: "og:description", content: "SAGES Sohga Hub is a professional, modern government school website for Swami Atmanand Govt English School." },
+      { name: "twitter:description", content: "SAGES Sohga Hub is a professional, modern government school website for Swami Atmanand Govt English School." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d0f1b73a-6b75-4da9-afa4-a983b93707ad/id-preview-b5e092ac--68294bb2-79e3-47ca-9f71-27c72ca9386d.lovable.app-1783009150805.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/d0f1b73a-6b75-4da9-afa4-a983b93707ad/id-preview-b5e092ac--68294bb2-79e3-47ca-9f71-27c72ca9386d.lovable.app-1783009150805.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
