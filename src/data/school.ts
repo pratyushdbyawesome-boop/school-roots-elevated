@@ -354,9 +354,7 @@ export const importantLinks = [
   { label: "SCERT Chhattisgarh", url: "https://scert.cg.gov.in" },
   { label: "National Scholarship Portal", url: "https://scholarships.gov.in" },
   { label: "DIKSHA Learning Platform", url: "https://diksha.gov.in" },
-  { label: "UDISE+ Portal", url: "https://udiseplus.gov.in" },
-  { label: "Chhattisgarh Govt Portal", url: "https://cg.gov.in" },
-  { label: "PM POSHAN (Mid-Day Meal)", url: "https://pmposhan.education.gov.in" },
+  { label: "PM eVidya", url: "https://pmevidya.education.gov.in" },
 ];
 
 export const testimonials = [
