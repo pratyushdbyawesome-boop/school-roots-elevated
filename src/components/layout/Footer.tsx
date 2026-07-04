@@ -5,7 +5,7 @@ import { school, navigation, importantLinks } from "@/data/school";
 import logo from "@/assets/logo.png";
 
 const quickLinks = navigation.slice(0, 8);
-const govLinks = importantLinks.slice(0, 5);
+const govLinks = importantLinks;
 
 const socials = [
   { label: "Facebook", icon: Facebook, url: "#" },
